@@ -34,7 +34,7 @@
   "require": {
     "php": "^8.0",
     "laravel/nova": "*",
-    "nova-kit/nova-packages-tool": "^1.2"
+    "nova-kit/nova-packages-tool": "*"
   },
   "autoload": {
     "psr-4": {
