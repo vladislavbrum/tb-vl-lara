@@ -3,7 +3,7 @@
     :field="currentField"
     :errors="errors"
     :show-help-text="showHelpText"
-    :full-width-content="currentField.fullWidth"
+    :full-width-content="currentField.fullWidth ? 'FullWidthField' : 'default-field'"
   >
     <template #field>
       <Table :can-delete="field.canDelete" :edit-mode="!field.readonly">
